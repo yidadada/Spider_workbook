@@ -1,8 +1,0 @@
-"Host":"search.zhenai.com",
-"Connection":"keep-alive",
-"Accept":"application/json, text/javascript, */*; q=0.01",
-"X-Requested-With":"XMLHttpRequest",
-"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36",
-"Referer":"http://search.zhenai.com/v2/search/pinterest.do?sex=1&agebegin=18&ageend=18&workcityprovince=10102000&workcitycity=-1&h1=-1&h2=-1&salaryBegin=-1&salaryEnd=-1&occupation=-1&h=-1&c=-1&workcityprovince1=-1&workcitycity1=-1&constellation=-1&animals=-1&stock=-1&belief=-1&condition=66&orderby=hpf&hotIndex=0&online=",
-"Accept-Encoding":"gzip, deflate",
-"Accept-Language":"zh-CN,zh;q=0.8",
