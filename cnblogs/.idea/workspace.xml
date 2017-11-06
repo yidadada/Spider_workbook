@@ -26,21 +26,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cnblogs/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48427674">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="144" column="27" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+              <folding>
+                <element signature="e#24#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="47" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="renren.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/xdl/spider/13/py02_spider_day13/py02_spider_day13/spiders/renren.py">
+      <file leaf-file-name="exec.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exec.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="renren.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cnblogs/spiders/renren.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0342466">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tencent.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnblogs/spiders/tencent.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xici.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnblogs/spiders/xici.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,8 +104,20 @@
         <entry file="file://$PROJECT_DIR$/cnblogs/items.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mymiddlewares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnblogs/mymiddlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+              <folding>
+                <element signature="e#25#81#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,23 +126,16 @@
         <entry file="file://$PROJECT_DIR$/cnblogs/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="112" column="20" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
-                <element signature="e#312#371#0" expanded="false" />
-                <element signature="e#406#794#0" expanded="false" />
-                <element signature="e#835#1853#0" expanded="false" />
-                <element signature="e#873#1229#0" expanded="false" />
-                <element signature="e#1278#1767#0" expanded="false" />
-                <element signature="e#1808#1853#0" expanded="false" />
-                <element signature="e#1896#2916#0" expanded="false" />
-                <element signature="e#2959#3292#0" expanded="false" />
-                <marker date="1508424692411" expanded="true" signature="1311:1331" placeholder="insert into cnblogs... " />
-                <marker date="1508424692411" expanded="true" signature="1311:1443" placeholder="insert into cnblogs... " />
-                <marker date="1508424692411" expanded="true" signature="2408:2427" placeholder="insert into tencent... " />
-                <marker date="1508424692411" expanded="true" signature="2408:2452" placeholder="insert into tencent... " />
-                <marker date="1508424692411" expanded="true" signature="2408:2471" placeholder="insert into tencent... " />
-                <marker date="1508424692411" expanded="true" signature="2408:2477" placeholder="insert into tencent... " />
-                <marker date="1508424692411" expanded="true" signature="2408:2490" placeholder="insert into tencent... " />
+                <element signature="e#192#203#0" expanded="true" />
+                <marker date="1509949469686" expanded="true" signature="1046:1066" placeholder="insert into cnblogs... " />
+                <marker date="1509949469686" expanded="true" signature="1046:1178" placeholder="insert into cnblogs... " />
+                <marker date="1509949469686" expanded="true" signature="1982:2001" placeholder="insert into tencent... " />
+                <marker date="1509949469686" expanded="true" signature="1982:2026" placeholder="insert into tencent... " />
+                <marker date="1509949469686" expanded="true" signature="1982:2045" placeholder="insert into tencent... " />
+                <marker date="1509949469686" expanded="true" signature="1982:2051" placeholder="insert into tencent... " />
+                <marker date="1509949469686" expanded="true" signature="1982:2064" placeholder="insert into tencent... " />
               </folding>
             </state>
           </provider>
@@ -107,21 +156,21 @@
         <option value="$USER_HOME$/Desktop/xdl/spider/11/py02_scrapy_day11/pipelines.py" />
         <option value="$PROJECT_DIR$/cnblogs/spiders/bokeyuan.py" />
         <option value="$PROJECT_DIR$/tencent.json" />
-        <option value="$PROJECT_DIR$/cnblogs/spiders/tencent.py" />
         <option value="$USER_HOME$/Desktop/13/py02_spider_day13/py02_spider_day13/settings.py" />
         <option value="$USER_HOME$/Desktop/13/py02_spider_day13/py02_spider_day13/mymiddlewares.py" />
-        <option value="$PROJECT_DIR$/cnblogs/items.py" />
         <option value="$USER_HOME$/Desktop/66proxy.py" />
         <option value="$PROJECT_DIR$/cnblogs/xici.json" />
-        <option value="$PROJECT_DIR$/cnblogs/spiders/xici.py" />
         <option value="$PROJECT_DIR$/exec.py" />
-        <option value="$PROJECT_DIR$/cnblogs/spiders/renren.py" />
         <option value="$USER_HOME$/Desktop/xdl/spider/13/py02_spider_day13/mongodb_demo.py" />
         <option value="$PROJECT_DIR$/cnblogs/spiders/baiduip.py" />
-        <option value="$PROJECT_DIR$/cnblogs/pipelines.py" />
         <option value="$USER_HOME$/Desktop/xdl/spider/13/py02_spider_day13/py02_spider_day13/mymiddlewares.py" />
         <option value="$PROJECT_DIR$/cnblogs/settings.py" />
+        <option value="$PROJECT_DIR$/cnblogs/spiders/renren.py" />
+        <option value="$PROJECT_DIR$/cnblogs/spiders/tencent.py" />
+        <option value="$PROJECT_DIR$/cnblogs/spiders/xici.py" />
+        <option value="$PROJECT_DIR$/cnblogs/items.py" />
         <option value="$PROJECT_DIR$/cnblogs/mymiddlewares.py" />
+        <option value="$PROJECT_DIR$/cnblogs/pipelines.py" />
       </list>
     </option>
   </component>
@@ -131,10 +180,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1056" />
+    <option name="x" value="-90" />
+    <option name="y" value="54" />
+    <option name="width" value="1225" />
+    <option name="height" value="847" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -183,8 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,6 +284,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -509,10 +558,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-90" y="54" width="1225" height="847" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16271552" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26953468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293124" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -574,7 +623,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/cnblogs/pipelines.py</url>
-          <line>17</line>
+          <line>16</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$USER_HOME$/Desktop/xdl/spider/13/py02_spider_day13/mongodb_demo.py</url>
@@ -591,26 +640,70 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cnblogs/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/xdl/spider/13/py02_spider_day13/py02_spider_day13/spiders/renren.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/xdl/spider/13/py02_spider_day13/py02_spider_day13/spiders/renren2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnblogs/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnblogs/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="112" column="20" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+          <folding>
+            <element signature="e#192#203#0" expanded="true" />
+            <marker date="1509949469686" expanded="true" signature="1046:1066" placeholder="insert into cnblogs... " />
+            <marker date="1509949469686" expanded="true" signature="1046:1178" placeholder="insert into cnblogs... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2001" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2026" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2045" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2051" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2064" placeholder="insert into tencent... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cnblogs/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#312#371#0" expanded="false" />
-            <element signature="e#406#794#0" expanded="false" />
-            <element signature="e#835#1853#0" expanded="false" />
-            <element signature="e#873#1229#0" expanded="false" />
-            <element signature="e#1278#1767#0" expanded="false" />
-            <element signature="e#1808#1853#0" expanded="false" />
-            <element signature="e#1896#2916#0" expanded="false" />
-            <element signature="e#2959#3292#0" expanded="false" />
-            <marker date="1508424692411" expanded="true" signature="1311:1331" placeholder="insert into cnblogs... " />
-            <marker date="1508424692411" expanded="true" signature="1311:1443" placeholder="insert into cnblogs... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2427" placeholder="insert into tencent... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2452" placeholder="insert into tencent... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2471" placeholder="insert into tencent... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2477" placeholder="insert into tencent... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2490" placeholder="insert into tencent... " />
+            <element signature="e#192#203#0" expanded="true" />
+            <marker date="1509949469686" expanded="true" signature="1046:1066" placeholder="insert into cnblogs... " />
+            <marker date="1509949469686" expanded="true" signature="1046:1178" placeholder="insert into cnblogs... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2001" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2026" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2045" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2051" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2064" placeholder="insert into tencent... " />
           </folding>
         </state>
       </provider>
@@ -619,14 +712,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="37" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnblogs/spiders/bokeyuan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -717,13 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnblogs.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/xdl/spider/12/py02_scrapy_day11/py02_scrapy_day11/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -738,66 +819,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../scrapydemo2/scrapydemo2/spiders/xdl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37232703">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scrapydemo2/scrapydemo2/spiders/xici.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28679246">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../scrapydemo2/scrapydemo2/spiders/tencent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18663304">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnblogs/spiders/bokeyuan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tencent.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31626505">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnblogs/xici.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5589172">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnblogs/spiders/renren.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -815,31 +840,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03404792">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/xdl/spider/9/py02_spider_day9/mysql_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04035309">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnblogs/spiders/tencent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6809584">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnblogs/spiders/xici.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5447667">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -850,13 +854,6 @@
           <folding>
             <element signature="e#13#26#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cnblogs/spiders/baiduip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5296343">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -938,13 +935,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cnblogs/mymiddlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75039244">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/xdl/spider/13/py02_spider_day13/py02_spider_day13/spiders/renren.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -961,42 +951,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cnblogs/spiders/tencent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnblogs/spiders/xici.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cnblogs/items.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnblogs/mymiddlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
+          <folding>
+            <element signature="e#25#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cnblogs/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="112" column="20" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
-            <element signature="e#312#371#0" expanded="false" />
-            <element signature="e#406#794#0" expanded="false" />
-            <element signature="e#835#1853#0" expanded="false" />
-            <element signature="e#873#1229#0" expanded="false" />
-            <element signature="e#1278#1767#0" expanded="false" />
-            <element signature="e#1808#1853#0" expanded="false" />
-            <element signature="e#1896#2916#0" expanded="false" />
-            <element signature="e#2959#3292#0" expanded="false" />
-            <marker date="1508424692411" expanded="true" signature="1311:1331" placeholder="insert into cnblogs... " />
-            <marker date="1508424692411" expanded="true" signature="1311:1443" placeholder="insert into cnblogs... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2427" placeholder="insert into tencent... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2452" placeholder="insert into tencent... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2471" placeholder="insert into tencent... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2477" placeholder="insert into tencent... " />
-            <marker date="1508424692411" expanded="true" signature="2408:2490" placeholder="insert into tencent... " />
+            <element signature="e#192#203#0" expanded="true" />
+            <marker date="1509949469686" expanded="true" signature="1046:1066" placeholder="insert into cnblogs... " />
+            <marker date="1509949469686" expanded="true" signature="1046:1178" placeholder="insert into cnblogs... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2001" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2026" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2045" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2051" placeholder="insert into tencent... " />
+            <marker date="1509949469686" expanded="true" signature="1982:2064" placeholder="insert into tencent... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cnblogs/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48427674">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="144" column="27" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="47" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnblogs/spiders/renren.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0342466">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding />
         </state>
       </provider>

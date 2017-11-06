@@ -132,11 +132,9 @@ PROXY_IP = [
 
 ]
 
-MONGO_HOST = "101.132.157.111"  # 主机IP
-MONGO_PORT = 27017  # 端口号
-MONGODB_DBNAME = 'd1' #数据库名
-#MONGODB_DOCNAME = 'form' #表名
-
+MONGO_HOST = "101.132.157.111"
+MONGO_PORT = 27017
+MONGODB_DBNAME = 'd1'
 
 def getproxy():
     mongo_client = pymongo.MongoClient("101.132.157.111" ,27017)
@@ -144,7 +142,6 @@ def getproxy():
     ip_list = db.text.find() #查找出的类型是对象
     PROXIES = []
     for ipp in ip_list:
-        #ipp是dict
         PROXIES.append(ipp)
         return PROXIES
 

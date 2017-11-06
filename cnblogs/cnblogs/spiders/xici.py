@@ -17,7 +17,6 @@ class XiciSpider(scrapy.Spider):
 
     def parse(self, response):
         id_list = response.xpath('//tr')[1:]
-        #print len(id_list)
         for ipp in id_list:
             item = xici()
             item['id_list'] = ipp.xpath('.//td[1]/text()').extract()[0]

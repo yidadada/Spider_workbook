@@ -4,7 +4,6 @@ import scrapy
 class RenrenSpider(scrapy.Spider):
     name = 'renren'
     allowed_domains = ['renren.com']
-    #start_urls = ['http://www.renren.com/SysHome.do']
 
     def start_requests(self):
         login_url = 'http://www.renren.com/PLogin.do'

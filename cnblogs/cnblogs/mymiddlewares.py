@@ -27,7 +27,6 @@ class RandomKuaiDai(object):
 
     def process_request(self,request,spider):
         ip_list = random.choice(settings['PROXIES'])
-
         if ip_list.get('auth') is None:
             print ("?"*100)
             print ip_list['id_list']

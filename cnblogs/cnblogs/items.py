@@ -18,7 +18,6 @@ class cnblogs(scrapy.Item):
     detail = scrapy.Field()
     title = scrapy.Field()
     url = scrapy.Field()
-    #image_url= scrapy.Field()
     jianjie = scrapy.Field()
     author = scrapy.Field()
     comment_num  = scrapy.Field()
@@ -31,8 +30,6 @@ class tencentitem(scrapy.Item):
     location = scrapy.Field()
     type = scrapy.Field()
     num = scrapy.Field()
-    #zhize = scrapy.Field()
-    #yaoqiu = scrapy.Field()
 
 class xici(scrapy.Item):
 

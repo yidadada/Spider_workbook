@@ -9,7 +9,6 @@ import MySQLdb
 import pymongo
 from scrapy.conf import settings
 
-
 class Py02ScrapyDay11Pipeline(object):
     def process_item(self, item, spider):
         return item
@@ -20,9 +19,7 @@ class cnblogs(object):
         self.f = open('cnblogs.json','w')
 
     def process_item(self,item,spider):
-        #self.f.write(item)
         self.f.write(json.dumps(dict(item), ensure_ascii=False).encode('utf-8') + '\n')
-        #self.f.write(json.dumps(dict(item), ensure_ascii=False).encode('utf-8') + '\n')
         return item
 
     def close_spider(self,spider):
@@ -35,17 +32,13 @@ class MySQLdbpilines(object):
         try:
             self.conn = MySQLdb.connect('192.168.2.134', 'mayinan', '123456', 'myweb', charset='utf8')
             self.cursor = self.conn.cursor()
-            # cursor.execute('SELECT VERSION()')
-            # data = cursor.fetchone()
-            #print '_*_*_*_*_*_*'
         except Exception, e:
             print '数据库连接失败'
             print str(e)
+
     def process_item(self,item,spider):
-        #print dict(item)
         sql = 'insert into cnblogs(detail,title,url,jianjie,author,comment_num,view_num,shijian) ' \
               'values(%s,%s,%s,%s,%s,%s,%s,%s)'
-
         try:
             self.cursor.execute(sql,(
             item['detail'], item['title'], item['url'], item['jianjie'], item['author'], item['comment_num'],
@@ -54,7 +47,7 @@ class MySQLdbpilines(object):
         except Exception, e:
             print '插入失败', str(e)
         return item
-    # 最后调用
+
     def close(self):
         self.cursor.close()
         self.conn.close()
@@ -64,28 +57,21 @@ class TencentMySQLdbpilines(object):
         try:
             self.conn = MySQLdb.connect('192.168.2.134','mayinan','123456','myweb',charset = 'utf8')
             self.cursor =self.conn.cursor()
-            # # self.cursor.execute('SELECT VERSION()')
-            # # self.data = self.cursor.fetchone()
-            # print '12345678901234567890'
         except:
             print '####wrong#################################################################################'
 
     def process_item(self,item ,spider):
         sql = 'insert into tencent(title,location,type,num)' \
               'values(%s,%s,%s,%s)'
-
-        #不管是什么数据类型，占位符永远都是%s
-        # try:
-        self.cursor.execute(sql,(item['title'], item['location'], item['type'], item['num']))
-        #数据得值应该是一个元组或者列表
-        self.conn.commit()
-        #调用一下这个方法数据才会保存在数据库中，不然数据只是走可一次，id会增加，但是数据不会留下
-        # except Exception, e:
-        #     print '插入失败', str(e)
+        try:
+            self.cursor.execute(sql,(item['title'], item['location'], item['type'], item['num']))
+            #数据得值应该是一个元组或者列表
+            self.conn.commit()
+        except Exception, e:
+            print '插入失败', str(e)
         return item
 
     def close_spider(self,spider):
-
         self.cursor.close()
         self.conn.close()
 
@@ -96,9 +82,7 @@ class Tencentpilines(object):
         self.f = open('tencent.json','a')
 
     def process_item(self,item,spider):
-
         self.f.write(json.dumps(dict(item),ensure_ascii = False).encode('utf-8') + '\n')
-
     def close_spider(self,spider):
         print 'file has been closed%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%'
         self.f.close()
@@ -110,7 +94,6 @@ class Xicipilines(object):
 
     def process_item(self,item,spider):
         self.f.write(json.dumps(dict(item),ensure_ascii= False).encode('utf-8') + '\n')
-        #return item
 
     def close_spider(self,spider):
         self.f.close()

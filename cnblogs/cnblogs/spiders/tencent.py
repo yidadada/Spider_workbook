@@ -12,18 +12,14 @@ class TencentSpider(CrawlSpider):
 
     rules = (
         Rule(LinkExtractor(allow=(r'position_detail',)),callback='parse_item',follow=True,),
-        #Rule(LinkExtractor(allow=(r'start=\d+',)),follow=True),
     )
 
     def parse_item(self, response):
-        #print response.url
         item = tencentitem()
         item['title']= response.xpath('//table[@class="tablelist textl"]//tr[@class="h"]/td/text()').extract()[0]
         item['location'] = response.xpath('//table[@class="tablelist textl"]//tr[@class="c bottomline"]/td[1]/text()').extract()[0]
         item['type'] = response.xpath('//table[@class="tablelist textl"]//tr[@class="c bottomline"]/td[2]/text()').extract()[0]
         item['num'] = response.xpath('//table[@class="tablelist textl"]//tr[@class="c bottomline"]/td[3]/text()').extract()[0]
-        #item['zhize'] = response.xpath('//table[@class="tablelist textl"]//tr[3]').extract()[0]
-        #item['yaoqiu'] = response.xpath('//table[@class="tablelist textl"]//tr[4]').extract()[0]
         yield item
 
     def link_chuli(self,links):
